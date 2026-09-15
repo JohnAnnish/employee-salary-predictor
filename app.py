@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load model
-model = joblib.load('salary_model.pkl')
+model = joblib.load("salary_model.pkl")
 
 # Page config
 st.set_page_config(page_title="Employee Salary Predictor", page_icon="💼", layout="centered")
